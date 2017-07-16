@@ -1,0 +1,21 @@
+parties:
+  -
+    full_name: "Alternative für Deutschland"
+    short_name: "AFD"
+  -
+    full_name: "Christlich Demokratische Union Deutschlands"
+    short_name: "CDU"
+  -
+    full_name: "Christlich-Soziale Union in Bayern e.V."
+    short_name: "CSU"
+  -
+    short_name: "DIE LINKE"
+  -
+    full_name: "Freie Demokratische Partei"
+    short_name: "FDP"
+  -
+    full_name: "Bündnis 90/Die Grünen"
+    short_name: "GRÜNE"
+  -
+    full_name: "Sozialdemokratische Partei Deutschlands"
+    short_name: "SPD"
