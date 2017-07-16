@@ -1,0 +1,46 @@
+candidates:
+  -
+    title: "Dr."
+    first_name: "Angela"
+    last_name: "Merkel"
+    party: "CDU"
+  -
+    first_name: "Joachim"
+    last_name: "Herrmann"
+    party: "CSU"
+  -
+    first_name: "Martin"
+    last_name: "Schulz"
+    party: "SPD"
+  -
+    title: "Dr."
+    first_name: "Sahra"
+    last_name: "Wagenknecht"
+    party: "DIE LINKE"
+  -
+    title: "Dr."
+    first_name: "Dietmar"
+    last_name: "Bartsch"
+    party: "DIE LINKE"
+  -
+    first_name: "Katrin"
+    last_name: "Göring-Eckardt"
+    party: "GRÜNE"
+  -
+    first_name: "Cem"
+    last_name: "Özdemir"
+    party: "GRÜNE"
+  -
+    first_name: "Christian"
+    last_name: "Lindner"
+    party: "FDP"
+  -
+    title: "Dr."
+    first_name: "Alice"
+    last_name: "Weidel"
+    party: "AFD"
+  -
+    title: "Dr."
+    first_name: "Alexander"
+    last_name: "Gauland"
+    party: "AFD"

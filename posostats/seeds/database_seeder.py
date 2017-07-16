@@ -1,3 +1,4 @@
+from .candidate_seeder import CandidateSeeder
 from orator.seeds import Seeder
 from .party_seeder import PartySeeder
 
@@ -9,3 +10,4 @@ class DatabaseSeeder(Seeder):
         ATTENTION: NEVER(!) change the order of this Seeders
         """
         self.call(PartySeeder)
+        self.call(CandidateSeeder)

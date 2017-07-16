@@ -10,9 +10,8 @@ from orator.seeds import Seeder
 class PartySeeder(Seeder):
     def run(self):
         """
-        This seeds file creates all parties
+        This seeds file creates all parties defined in ./parties.yml
         """
-
         filepath = os.path.abspath(os.path.dirname(__file__))
         filepath = os.path.join(filepath, "parties.yml")
 
