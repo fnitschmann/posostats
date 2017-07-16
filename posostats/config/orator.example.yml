@@ -1,0 +1,7 @@
+databases:
+    mysql:
+      driver: mysql
+      host: localhost
+      user: "root"
+      password: ""
+      database: "posostats"
