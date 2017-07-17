@@ -5,7 +5,7 @@ class CreateFacebookAccountsTable(Migration):
         """
         Run the migrations.
         """
-        with self.schema.create('facebook_accounts') as table:
+        with self.schema.create("facebook_accounts") as table:
             table.increments("id")
 
             table.integer("candidate_id").unsigned().nullable()
@@ -23,4 +23,4 @@ class CreateFacebookAccountsTable(Migration):
         """
         Revert the migrations.
         """
-        self.schema.drop('facebook_accounts')
+        self.schema.drop("facebook_accounts")

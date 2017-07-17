@@ -1,5 +1,5 @@
 from . import party
-from .accounts import facebook
+from .accounts import facebook, twitter
 from .connection import db
 from orator import Model
 from orator.orm import belongs_to, has_one
@@ -16,3 +16,7 @@ class Candidate(Model):
     @has_one
     def facebook_account(self):
         return facebook.FacebookAccount
+
+    @has_one
+    def twitter_account(self):
+        return twitter.TwitterAccount
