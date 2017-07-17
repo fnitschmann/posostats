@@ -70,6 +70,7 @@ class CandidateSeeder(Seeder):
         account.party_id = party.id
 
         account.save()
+        account.fetch_and_set_likes_count()
 
     def __create_candidate_twitter_account(self, attributes, candidate, party):
         link = attributes["link"]
