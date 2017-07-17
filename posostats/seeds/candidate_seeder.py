@@ -6,6 +6,7 @@ if p not in sys.path:
 
 from models import Candidate, Party
 from models.accounts.facebook import FacebookAccount
+from models.accounts.twitter import TwitterAccount
 from orator.seeds import Seeder
 
 class CandidateSeeder(Seeder):
@@ -54,11 +55,27 @@ class CandidateSeeder(Seeder):
             self.__create_candidate_facebook_account(facebook_account,
                     candidate, party)
 
+        if "twitter_account" in attributes and attributes["twitter_account"] is not None:
+            twitter_account = attributes["twitter_account"]
+            self.__create_candidate_twitter_account(twitter_account, candidate,
+                    party)
+
     def __create_candidate_facebook_account(self, attributes, candidate, party):
         link = attributes["link"]
         page_name = attributes["page_name"]
 
         account = FacebookAccount.first_or_new(page_name = page_name)
+        account.link = link
+        account.candidate_id = candidate.id
+        account.party_id = party.id
+
+        account.save()
+
+    def __create_candidate_twitter_account(self, attributes, candidate, party):
+        link = attributes["link"]
+        screen_name = attributes["screen_name"]
+
+        account = TwitterAccount.first_or_new(screen_name = screen_name)
         account.link = link
         account.candidate_id = candidate.id
         account.party_id = party.id

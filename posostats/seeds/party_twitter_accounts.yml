@@ -1,0 +1,29 @@
+accounts:
+  -
+    link: "https://twitter.com/CDU"
+    screen_name: "CDU"
+    party: "CDU"
+  -
+    link: "https://twitter.com/CSU/"
+    screen_name: "CSU"
+    party: "CSU"
+  -
+    link: "https://twitter.com/spdde/"
+    screen_name: "spdde"
+    party: "SPD"
+  -
+    link: "https://twitter.com/dieLinke/"
+    screen_name: "dieLinke"
+    party: "DIE LINKE"
+  -
+    link: "https://twitter.com/Die_Gruenen/"
+    screen_name: "Die_Gruenen"
+    party: "GRÜNE"
+  -
+    link: "https://twitter.com/fdp/"
+    screen_name: "fdp"
+    party: "FDP"
+  -
+    link: "https://twitter.com/AfD_Bund/"
+    screen_name: "AfD_Bund"
+    party: "AFD"

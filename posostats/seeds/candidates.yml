@@ -21,6 +21,9 @@ candidates:
     facebook_account:
       link: "https://www.facebook.com/martinschulz/"
       page_name: "martinschulz"
+    twitter_account:
+      link: "https://twitter.com/MartinSchulz/"
+      screen_name: "MartinSchulz"
   -
     title: "Dr."
     first_name: "Sahra"
@@ -29,6 +32,9 @@ candidates:
     facebook_account:
       link: "https://www.facebook.com/sahra.wagenknecht/"
       page_name: "sahra.wagenknecht"
+    twitter_account:
+      link: "https://twitter.com/SWagenknecht/"
+      screen_name: "SWagenknecht"
   -
     title: "Dr."
     first_name: "Dietmar"
@@ -37,6 +43,9 @@ candidates:
     facebook_account:
       link: "https://www.facebook.com/DietmarBartschMdB/"
       page_name: "DietmarBartschMdB"
+    twitter_account:
+      link: "https://twitter.com/DietmarBartsch/"
+      screen_name: "DietmarBartsch"
   -
     first_name: "Katrin"
     last_name: "Göring-Eckardt"
@@ -44,6 +53,9 @@ candidates:
     facebook_account:
       link: "https://www.facebook.com/GoeringEckardt/"
       page_name: "GoeringEckardt"
+    twitter_account:
+      link: "https://twitter.com/GoeringEckardt/"
+      screen_name: "GoeringEckardt"
   -
     first_name: "Cem"
     last_name: "Özdemir"
@@ -51,6 +63,9 @@ candidates:
     facebook_account:
       link: "https://www.facebook.com/Cem/"
       page_name: "Cem"
+    twitter_account:
+      link: "https://twitter.com/cem_oezdemir/"
+      screen_name: "cem_oezdemir"
   -
     first_name: "Christian"
     last_name: "Lindner"
@@ -58,6 +73,9 @@ candidates:
     facebook_account:
       link: "https://www.facebook.com/lindner.christian/"
       page_name: "lindner.christian"
+    twitter_account:
+      link: "https://twitter.com/c_lindner/"
+      screen_name: "c_lindner"
   -
     title: "Dr."
     first_name: "Alice"
@@ -66,6 +84,9 @@ candidates:
     facebook_account:
       link: "https://www.facebook.com/aliceweidel/"
       page_name: "aliceweidel"
+    twitter_account:
+      link: "https://twitter.com/Alice_Weidel/"
+      screen_name: "Alice_Weidel"
   -
     title: "Dr."
     first_name: "Alexander"
