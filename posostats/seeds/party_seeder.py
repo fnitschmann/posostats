@@ -63,3 +63,4 @@ class PartySeeder(Seeder):
         account.party_id = party.id
 
         account.save()
+        account.fetch_and_set_followers_count()

@@ -1,4 +1,4 @@
-import os, sys, threading
+import os, sys
 
 p = os.path.abspath(os.path.join(os.path.dirname(__file__), "..", ".."))
 if p not in sys.path:
