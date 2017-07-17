@@ -102,3 +102,4 @@ ENV/
 
 # configs
 posostats/config/orator.yml
+posostats/config/social_networks.py
