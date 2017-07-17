@@ -1,7 +1,8 @@
-from .candidate import Candidate
+from . import candidate
+from .accounts import facebook
 from .connection import db
 from orator import Model
-from orator.orm import has_many
+from orator.orm import has_many, has_one
 
 class Party(Model):
     __table__ = "parties"
@@ -10,4 +11,8 @@ class Party(Model):
 
     @has_many
     def candidates(self):
-        return Candidate
+        return candidate.Candidate
+
+    @has_one
+    def facebook_account(self):
+        return facebook.FacebookAccount

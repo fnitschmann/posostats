@@ -5,6 +5,7 @@ if p not in sys.path:
     sys.path.append(p)
 
 from models import Candidate, Party
+from models.accounts.facebook import FacebookAccount
 from orator.seeds import Seeder
 
 class CandidateSeeder(Seeder):
@@ -47,3 +48,21 @@ class CandidateSeeder(Seeder):
             candidate.title = attributes["title"]
 
         candidate.save()
+
+        if "facebook_account" in attributes and attributes["facebook_account"] is not None:
+            facebook_account = attributes["facebook_account"]
+            self.__create_candidate_facebook_account(facebook_account,
+                    candidate, party)
+
+    def __create_candidate_facebook_account(self, attributes, candidate, party):
+        link = attributes["link"]
+        page_name = attributes["page_name"]
+
+        account = FacebookAccount.first_or_new(page_name = page_name)
+        account.link = link
+        account.candidate_id = candidate.id
+        account.party_id = party.id
+
+        account.save()
+
+

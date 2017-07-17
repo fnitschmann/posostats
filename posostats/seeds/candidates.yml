@@ -4,41 +4,68 @@ candidates:
     first_name: "Angela"
     last_name: "Merkel"
     party: "CDU"
+    facebook_account:
+      link: "https://www.facebook.com/AngelaMerkel/"
+      page_name: "AngelaMerkel"
   -
     first_name: "Joachim"
     last_name: "Herrmann"
     party: "CSU"
+    facebook_account:
+      link: "https://www.facebook.com/joachim.herrmann.csu/"
+      page_name: "joachim.herrmann.csu"
   -
     first_name: "Martin"
     last_name: "Schulz"
     party: "SPD"
+    facebook_account:
+      link: "https://www.facebook.com/martinschulz/"
+      page_name: "martinschulz"
   -
     title: "Dr."
     first_name: "Sahra"
     last_name: "Wagenknecht"
     party: "DIE LINKE"
+    facebook_account:
+      link: "https://www.facebook.com/sahra.wagenknecht/"
+      page_name: "sahra.wagenknecht"
   -
     title: "Dr."
     first_name: "Dietmar"
     last_name: "Bartsch"
     party: "DIE LINKE"
+    facebook_account:
+      link: "https://www.facebook.com/DietmarBartschMdB/"
+      page_name: "DietmarBartschMdB"
   -
     first_name: "Katrin"
     last_name: "Göring-Eckardt"
     party: "GRÜNE"
+    facebook_account:
+      link: "https://www.facebook.com/GoeringEckardt/"
+      page_name: "GoeringEckardt"
   -
     first_name: "Cem"
     last_name: "Özdemir"
     party: "GRÜNE"
+    facebook_account:
+      link: "https://www.facebook.com/Cem/"
+      page_name: "Cem"
   -
     first_name: "Christian"
     last_name: "Lindner"
     party: "FDP"
+    facebook_account:
+      link: "https://www.facebook.com/lindner.christian/"
+      page_name: "lindner.christian"
   -
     title: "Dr."
     first_name: "Alice"
     last_name: "Weidel"
     party: "AFD"
+    facebook_account:
+      link: "https://www.facebook.com/aliceweidel/"
+      page_name: "aliceweidel"
   -
     title: "Dr."
     first_name: "Alexander"
