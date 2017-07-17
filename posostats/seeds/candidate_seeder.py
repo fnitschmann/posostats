@@ -64,5 +64,3 @@ class CandidateSeeder(Seeder):
         account.party_id = party.id
 
         account.save()
-
-
