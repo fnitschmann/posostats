@@ -21,6 +21,9 @@ class TwitterPostsSeeder(Seeder):
                 t = threading.Thread(target=self.__run_fetch, args=(account,))
                 t.start()
 
+            while(threading.active_count() > 1):
+                continue
+
     def __run_fetch(self, account):
         print("started Twitter post fetch for {}".format(account.link))
         TwitterPostsFetcher(account = account, count = 50).run()

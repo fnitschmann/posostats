@@ -21,6 +21,9 @@ class FacebookPostsSeeder(Seeder):
                 t = threading.Thread(target=self.__run_fetch, args=(account,))
                 t.start()
 
+            while(threading.active_count() > 1):
+                continue
+
     def __run_fetch(self, account):
         print("started Facebook post fetch for {}".format(account.link))
         FacebookPostsFetcher(account = account, since_days = 10).run()
