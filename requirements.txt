@@ -1,4 +1,5 @@
 flask
 flask-orator
 orator
+python-dotenv
 twitter
