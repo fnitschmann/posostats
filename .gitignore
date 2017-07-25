@@ -101,5 +101,4 @@ ENV/
 .mypy_cache/
 
 # configs
-posostats/config/orator.yml
-posostats/config/social_networks.py
+config/database.yml

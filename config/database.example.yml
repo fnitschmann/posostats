@@ -1,0 +1,13 @@
+default: &default
+  driver: mysql
+  host: localhost
+  user: "root"
+  password: ""
+
+development:
+  <<: *default
+  database: "posostats_development"
+
+production:
+  <<: *default
+  database: "posostats_production"
