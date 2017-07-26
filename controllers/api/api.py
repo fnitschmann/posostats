@@ -15,4 +15,5 @@ class ApiController(BaseController):
         super().register()
 
     def __register_parties_controller(self):
-        PartiesController(self.register_sub_controller("parties")).register_routes()
+        sub_controller = self.register_sub_controller("parties")
+        PartiesController(sub_controller).register_routes()
