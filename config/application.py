@@ -1,14 +1,13 @@
-import os, yaml
+import os, sys, yaml
 
-class ApplicationConfig:
+p = os.path.abspath(os.path.join(os.path.dirname(__file__), ".."))
+if p not in sys.path:
+    sys.path.append(p)
+
+from utils import Singleton
+
+class ApplicationConfig(Singleton):
     ALLOWED_ENVS = ["development", "production"]
-
-    singleton = None
-
-    def __new__(cls, *args, **kwargs):
-        if not cls.singleton:
-            cls.singleton = object.__new__(ApplicationConfig)
-        return cls.singleton
 
     def __init__(self, environment = "development"):
         if environment in self.ALLOWED_ENVS:
