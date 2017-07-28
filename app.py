@@ -8,7 +8,7 @@ from config import ApplicationConfig
 from controllers.api import ApiController
 
 load_dotenv(os.path.join(os.path.dirname(__file__), ".env"))
-environment = os.getenv("ENVIRONMENT", "development")
+environment = os.environ.get("ENV", os.getenv("ENV", "development"))
 application_config = ApplicationConfig.get_instance(environment=environment)
 
 # Flask application
@@ -17,6 +17,9 @@ app.config["APPLICATION_CONFIG"] = application_config
 app.config["ORATOR_DATABASES"] = {
         environment: application_config.database_config()
         }
+
+if environment is not "production":
+    app.config["ORATOR_DATABASES"]["test"] = application_config.database_config_for_env("test")
 
 # Orator db
 db = Orator(app)

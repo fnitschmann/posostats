@@ -11,3 +11,7 @@ development:
 production:
   <<: *default
   database: "posostats_production"
+
+test:
+  <<: *default
+  database: "posostats_test"
