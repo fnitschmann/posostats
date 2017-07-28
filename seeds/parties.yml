@@ -1,0 +1,64 @@
+parties:
+  -
+    full_name: "Alternative für Deutschland"
+    short_name: "AFD"
+    facebook_profile:
+      link: "https://www.facebook.com/alternativefuerde/"
+      page_name: "alternativefuerde"
+    twitter_profile:
+      link: "https://twitter.com/AfD_Bund/"
+      screen_name: "AfD_Bund"
+  -
+    full_name: "Christlich Demokratische Union Deutschlands"
+    short_name: "CDU"
+    facebook_profile:
+      link: "https://www.facebook.com/CDU/"
+      page_name: "CDU"
+    twitter_profile:
+      link: "https://twitter.com/CDU"
+      screen_name: "CDU"
+  -
+    full_name: "Christlich-Soziale Union in Bayern e.V."
+    short_name: "CSU"
+    facebook_profile:
+      link: "https://www.facebook.com/CSU/"
+      page_name: "CSU"
+    twitter_profile:
+      link: "https://twitter.com/CSU/"
+      screen_name: "CSU"
+  -
+    full_name: "DIE LINKE"
+    short_name: "DIE LINKE"
+    facebook_profile:
+      link: "https://www.facebook.com/linkspartei/"
+      page_name: "linkspartei"
+    twitter_profile:
+      link: "https://twitter.com/dieLinke/"
+      screen_name: "dieLinke"
+  -
+    full_name: "Freie Demokratische Partei"
+    short_name: "FDP"
+    facebook_profile:
+      link: "https://www.facebook.com/FDP/"
+      page_name: "FDP"
+    twitter_profile:
+      link: "https://twitter.com/fdp/"
+      screen_name: "fdp"
+  -
+    full_name: "Bündnis 90/Die Grünen"
+    short_name: "GRÜNE"
+    facebook_profile:
+      link: "https://www.facebook.com/B90DieGruenen/"
+      page_name: "B90DieGruenen"
+    twitter_profile:
+      link: "https://twitter.com/Die_Gruenen/"
+      screen_name: "Die_Gruenen"
+  -
+    full_name: "Sozialdemokratische Partei Deutschlands"
+    short_name: "SPD"
+    facebook_profile:
+      link: "https://www.facebook.com/SPD/"
+      page_name: "SPD"
+    twitter_profile:
+      link: "https://twitter.com/spdde/"
+      screen_name: "spdde"

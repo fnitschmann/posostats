@@ -13,11 +13,14 @@ class BaseController(Singleton):
 
     def __init__(self, app):
         self.app = app
+        self.__registered = False
         self.__create_blueprint()
 
     def register(self):
-        self.app.register_blueprint(self.blueprint)
-        self.__register_sub_controller_blueprints()
+        if not self.__registered:
+            self.app.register_blueprint(self.blueprint)
+            self.__register_sub_controller_blueprints()
+            self.__registered = True
 
     def register_sub_controller(self, prefix):
         sub_controller = SubController(self.blueprint, prefix)

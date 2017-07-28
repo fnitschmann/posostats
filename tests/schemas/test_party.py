@@ -39,5 +39,3 @@ class TestPartySchema(unittest.TestCase):
 
         self.assertEqual(attributes["full_name"], self.party.full_name)
         self.assertEqual(attributes["short_name"], self.party.short_name)
-        self.assertEqual(attributes["created_at"], str(self.party.created_at))
-        self.assertEqual(attributes["updated_at"], str(self.party.updated_at))
